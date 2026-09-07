@@ -1,0 +1,2 @@
+dna = "ATCGATCG" 
+print(dna)
