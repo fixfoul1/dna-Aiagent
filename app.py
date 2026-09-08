@@ -1,5 +1,5 @@
 import streamlit as st
-from google import genai
+import google.genai as genai
 from google.genai import types
 from dna_tools import calculate_gc_content, get_reverse_complement, translate_dna, find_mutations
 
