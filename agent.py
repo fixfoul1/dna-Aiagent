@@ -31,7 +31,7 @@ def ask_agent(prompt: str) -> None:
     try:
         # Create a chat session with AFC enabled
         chat = client.chats.create(
-            model="gemini-2.5-flash",  # Updated supported model
+            model="gemini-1.5-flash",  # Updated supported model
             config=types.GenerateContentConfig(
                 system_instruction=SYSTEM_INSTRUCTION,
                 temperature=0.1,
