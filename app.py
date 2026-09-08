@@ -2,6 +2,14 @@ import streamlit as st
 import google.genai as genai
 from google.genai import types
 from dna_tools import calculate_gc_content, get_reverse_complement, translate_dna, find_mutations
+# في بداية كود app.py
+import streamlit as st
+
+st.sidebar.title("Configuration")
+user_api_key = st.sidebar.text_input("Enter your Gemini API Key (Optional):", type="password")
+
+# استخدام مفتاح الزائر إذا أدخله، أو المفتاح الافتراضي للموقع
+api_key = user_api_key if user_api_key else st.secrets["GEMINI_API_KEY"]
 
 # ضبط إعدادات الصفحة
 st.set_page_config(page_title="DNA Mutation AI Agent", page_icon="🧬", layout="wide")
