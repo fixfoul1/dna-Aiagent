@@ -44,7 +44,7 @@ if st.button("Run AI Analysis", type="primary"):
         with st.spinner("Analyzing sequences and running alignment..."):
             try:
                 chat = client.chats.create(
-                    model="gemini-1.5-flash-latest",
+                    model="gemini-3.6-flash",
                     config=types.GenerateContentConfig(
                         system_instruction=SYSTEM_INSTRUCTION,
                         temperature=0.1,
