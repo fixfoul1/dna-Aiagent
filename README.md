@@ -24,7 +24,5 @@ Built with **Python**, **Biopython**, **Google Gemini API**, and **Streamlit**.
 
 ## 🚀 Quick Start
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/fixfoul1/dna-Aiagent.git](https://github.com/fixfoul1/dna-Aiagent.git)
-cd dna-Aiagent
+### 1. Join the Url in about
+(https://7r7epp45qk74amv476d9ag.streamlit.app/)
